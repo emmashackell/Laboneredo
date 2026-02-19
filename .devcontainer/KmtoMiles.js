@@ -1,8 +1,8 @@
 //input
-letkilometers=56;
+let kilometers = 56;
 
 //processing
-
+let miles = kilometers * 0.621371;
 //output
 
-console.log(`${kilometers}is??miles`)
+console.log(`${kilometers} km is ${miles} miles`)

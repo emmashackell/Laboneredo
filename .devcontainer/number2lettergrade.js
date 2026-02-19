@@ -1,16 +1,16 @@
 //input
-letngrade=75
-letlettergrade="";
+let nGrade = 75
+let letterGrade ="";
 //processing
-//selectamonglettergrades
-if(nGrade<50){
-    lettergrade="youfailed"
-}elseif(nGrade>=90){
-    lettergrade="A+";
+//select among letter grades
+if(nGrade < 50){
+    letterGrade = "you failed"
+}else if(nGrade >= 90){
+    letterGrade = "A+";
 }else{
-    lettergrade="youpassed";
+    letterGrade = "you passed";
 }
 
 //output
 
-console.log(lettergrade)
+console.log(letterGrade)
